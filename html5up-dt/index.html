@@ -98,8 +98,7 @@
                             <template id="portfolio_videos">
                                 <div class="col-4 col-6-medium col-12-small">
                                     <section class="box">
-                                        <iframe width="100%" class="video featured" src="${data.url}" frameborder="0"
-                                                allowfullscreen></iframe>
+                                        <iframe width="100%" class="video featured" src="${data.url}" frameborder="0" allowfullscreen></iframe>
                                         <header><h3>${data.title || 'PROJECT'}</h3></header>
                                         <p>${data.text || 'Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat'}</p>
                                         <footer>
@@ -171,14 +170,10 @@
                             <h2></h2>
                         </header>
                         <ul class="social">
-                            <li><a class="icon fa-github" href="${data.presence.github}"><span
-                                    class="label">GitHUB</span></a></li>
-                            <li><a class="icon fa-linkedin" href="${data.presence.linkedin}"><span class="label">LinkedIn</span></a>
-                            </li>
-                            <li><a class="icon fa-twitter" href="${data.presence.twitter || ''}"><span class="label">Twitter</span></a>
-                            </li>
-                            <li><a class="icon fa-facebook" href="${data.presence.facebook || ''}"><span class="label">Facebook</span></a>
-                            </li>
+                            <li><a class="icon fa-github"   href="${data.presence.github}"><span class="label">GitHUB</span></a></li>
+                            <li><a class="icon fa-linkedin" href="${data.presence.linkedin}"><span class="label">LinkedIn</span></a></li>
+                            <li><a class="icon fa-twitter"  href="${data.presence.twitter || ''}"><span class="label">Twitter</span></a></li>
+                            <li><a class="icon fa-facebook" href="${data.presence.facebook || ''}"><span class="label">Facebook</span></a></li>
                         </ul>
                         <ul class="contact">
                             <li>
